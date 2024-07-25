@@ -13,6 +13,8 @@ We wanted to find out the relationships between different factors that had been 
 
 We used R and ChatGPT to analyse the data. ChatGPT provided us with the code we needed simply by giving it a few instructions. R enabled us to run that code.
 
+For example, we produced a plot to find the correlation between lesion number and BMI.
+
 ```r
 # Plots the age against the number of lesions in each participant.
 # The results show that as age increases, lesion number increases.
@@ -38,9 +40,10 @@ ggplot(participant_data, aes(x = age, y = lesion_number)) +
   )
 ```
 
+![Description](https://github.com/LK-Github-lgtm/LK-Github-lgtm/blob/main/file_show.png)
 
 
-For example, we produced a plot to find the correlation between lesion number and BMI. (Graph here) 
+
 
 
 
